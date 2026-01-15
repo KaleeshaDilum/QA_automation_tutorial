@@ -24,7 +24,6 @@ class handleAutoSugesstions:
         search.clear()
         search.send_keys("Kalutara")
         time.sleep(5)
-
         wait = WebDriverWait(driver, 15)
 
         suggestions = wait.until(
@@ -41,8 +40,7 @@ class handleAutoSugesstions:
         )
         print("Success")
         clickHotel.click()
-
-        time.sleep(5)
+        time.sleep(10)
 
 
 test1 = handleAutoSugesstions()
