@@ -32,6 +32,7 @@ class handleMultipleWindows:
             print("Clicked")
             time.sleep(5)
 
+
 test1 = handleMultipleWindows()
 test1.handleMultipleWindows()
 
